@@ -5,7 +5,6 @@ public class primeques {
         Scanner in= new Scanner(System.in);
         int c= in.nextInt();
         System.out.println(isarm(c));
-
     }
     static boolean isarm(int n){
         int og=n;
@@ -31,8 +30,6 @@ public class primeques {
             }
             n++;
         }
-
-
         return true;
     }
 }
